@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>BAKU.IN</h1>
+    </header>
+    <main>
+        <div class="feature">
+            <button class="item" id="run" title="Proses Text"></button>
+            <button class="item" id="open" title="Buka Folder"></button>
+            <button class="item" id="save" title="Simpan Text Perbaikan"></button>
+            <button class="item" id="eraser" title="Bersihkan Lembar Kerja"></button>
+            <button class="item" id="rubbish" title="Bersihkan Teks Perbaikan"></button>
+        </div>
+        <textarea id="rawText" maxlength="5000" placeholder="Text Asli"></textarea>
+        <textarea id="processingText" placeholder="Text Hasil Perbaikan" readonly></textarea>
+
+    </main>
+    <footer>
+        <p>&copy; 2021 | SIB Kampus Merdeka x Dicoding Student</p>
+    </footer>
+</body>
+<script src="src/script/data-source.js"></script>
+<script src="src/script/dom.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", ()=>{
+        const run = document.getElementById("run");
+        run.addEventListener("click", () =>{
+            const rawText = document.getElementById("rawText").value;
+            const processingText = document.getElementById("processingText");
+            processingText.innerHTML = rawText;
+        })
+
+        run.addEventListener("input", ()=>{
+
+        })
+    })
+</script>
+</html>
