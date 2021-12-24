@@ -1,0 +1,58 @@
+
+@media screen and (max-width: 576px){
+
+    body{
+        height: 2000px;
+    }
+    header{
+        position: static;
+    }
+    main{
+        flex-direction: column;
+        width: 80%;
+    }
+    .feature{
+        flex-direction: row;
+        margin-bottom: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    .item{
+        margin-left: 25px;
+        margin-bottom: 0;
+    }
+    textarea{
+        margin-top: 1px;
+        margin-left: 0;
+
+    }
+
+    #rawText{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    #processingText{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+
+    .dialog-box{
+        top: 30%;
+        right: 10%;
+        bottom: 30%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .item{
+        margin-left: 15px;
+        margin-bottom: 0;
+    }
+
+}

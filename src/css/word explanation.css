@@ -1,0 +1,9 @@
+#word-explanation{
+    position: absolute;
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    /*top: 0;*/
+    /*right: 0;*/
+    /*z-index: ;*/
+}

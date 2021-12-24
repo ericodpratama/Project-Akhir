@@ -1,0 +1,23 @@
+.custom-file-input {
+    color: transparent;
+    position: absolute;
+    top: 485px;
+    left: 140px;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.custom-file-input::before {
+    content: '+';
+    color: white;
+    display: inline-block;
+    background-color: black;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+

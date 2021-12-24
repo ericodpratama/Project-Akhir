@@ -1,0 +1,7 @@
+.message{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    z-index: 7;
+    border-width: 1px;
+}
