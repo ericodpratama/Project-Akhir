@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="dicoding:email" content="adiputrasinaga10@gmail.com">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BAKUIND</title>
+</head>
+<body>
+    <header>
+        <app-bar></app-bar>
+        <app-title></app-title>
+    </header>
+    <main>
+        <div class="feature">
+            <button class="item" id="run" title="Proses Text"></button>
+            <button class="item" id="save" title="Simpan Text Perbaikan"></button>
+            <button class="item" id="eraser" title="Bersihkan Lembar Kerja"></button>
+            <button class="item" id="rubbish" title="Bersihkan Teks Perbaikan"></button>
+            <button class="item" id="showFix" title="Teks Perbaikan"></button>
+            <input type="file" id="upload" class="custom-file-input">
+        </div>
+
+        <textarea id="rawText" maxlength="5000" placeholder="Text Asli" spellcheck="true"></textarea>
+
+        <div class="resultText">
+            <p id="processingText"></p>
+            <p id="fixText" hidden></p>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 2021 | SIB Kampus Merdeka x Dicoding Student</p>
+    </footer>
+</body>
+</html>
