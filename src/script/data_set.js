@@ -566,6 +566,9 @@ const data_set = {
     subtitusi : "substitusi",
     supermasi : "supremasi",
     susastera : "susatra",
+    tabligh : "tablig",
+    tahta : "takhta",
+    tapelak : "taplak",
 
     faximile: "faksimile",
     inofatif : "inovatif",
@@ -1200,6 +1203,9 @@ const data_collection = [
     "subtitusi",
     "supermasi",
     "susastera",
+    "tabligh",
+    "tahta",
+    "tapelak",
 
     "faximile",
     "inofatif",
